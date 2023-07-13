@@ -1,0 +1,22 @@
+.photo-grid__galery {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  gap: 16px;
+}
+
+@media screen and (max-width: 1100px)  {
+  .photo-grid__galery {
+    gap: 14px;
+  }
+}
+@media screen and (max-width: 850px) {
+  .photo-grid__galery {
+    gap: 16px;
+  }
+}
+@media screen and (max-width: 425px) {
+  .photo-grid__galery {
+    gap: 12px;
+  }
+}

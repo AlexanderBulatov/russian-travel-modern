@@ -1,0 +1,21 @@
+.intro__article-title {
+  margin: 0 auto;
+  max-width: 100%;
+  font-weight: 900;
+  font-size: 54px;
+  line-height: 1.07;
+  padding-bottom: 40px;
+}
+
+@media screen and (max-width: 767px) {
+  .intro__article-title {
+    font-size: 44px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .intro__article-title {
+    font-size: 32px;
+    line-height: 1.09;
+  }
+}

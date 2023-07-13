@@ -1,0 +1,31 @@
+.place-grid {
+  display: grid;
+  grid-template-columns: 460px 1fr;
+  grid-template-rows: min-content min-content;
+  grid-template-areas:
+  "place-title place-website"
+  "place-img place-description";
+}
+
+@media screen and (max-width: 1100px)  {
+  .place-grid {
+      grid-template-columns: 440px 1fr;
+    }
+  }
+
+  @media screen and (max-width: 850px) {
+    .place-grid {
+      grid-template-columns: 340px 1fr;
+    }
+  }
+
+  @media screen and (max-width: 767px) {
+    .place-grid {
+      grid-template-columns: 100%;
+      grid-template-areas:
+        "place-title"
+        "place-website"
+        "place-img"
+        "place-description";
+    }
+}

@@ -1,0 +1,9 @@
+.intro__article {
+  max-width: 690px;
+}
+
+@media screen and (max-width: 850px) {
+  .intro__article {
+    max-width: calc(100% - 0px*2);
+  }
+}
